@@ -1,0 +1,44 @@
+.abouthome h3
+{
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+}
+.img 
+{
+    margin-top:100px;
+    border:2px solid red;
+    margin-left:200px;
+    width:60%;
+    height:20%;
+    border-radius:10px;
+
+}
+img{
+    padding:60px;
+    width:800px;
+    height:300px;
+}
+.contentarticle 
+{
+    margin-top:40px;
+    width:60%;
+    margin-left:200px;
+    margin-right:40px;
+    border:2px solid black;
+    border-radius:10px;
+}
+.articlecintent 
+{
+    padding:10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    
+}
+.articleby 
+{
+    color:red;
+    font-size: xx-small;
+}

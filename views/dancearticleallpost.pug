@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Sports
+        link(href='dancearticleallpost.css' rel='stylesheet')
+    body 
+        .container
+            .aboutdance
+                h3 About dance
+            
+            .img
+                img(src='dance3rdphoto.jfif' alt='medicine')
+                p Dance
+            each val in article    
+                .contentarticle
+                    .articlecintent 
+                        h3 Article
+                            p  #{val.article}
+                    .articleby        
+                        h4 Posted by 
+                            p  #{val.email}       

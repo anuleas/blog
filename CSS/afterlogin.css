@@ -1,0 +1,51 @@
+.logout
+{
+    margin-top:100px;
+    
+    
+}
+.logout a
+{
+    margin-left:500px;
+    background-color: red;
+    padding:20px;
+    text-decoration: none;
+
+}
+.logout a:hover
+{
+    border:2px solid red;
+    border-radius:10px;
+    margin-left:500px;
+    background-color:blue;
+    color:white;
+    padding:20px;
+    text-decoration: none;
+
+}
+.welcome
+{
+    margin-top:20px;
+    margin-left:100px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: italic;
+}
+
+.container
+{
+    display:flex;
+    width:60%;
+    margin:20px;
+    border:1px solid red;
+    border-radius: 10px;
+    padding:10px;
+   
+}
+.container a
+{
+    margin-left:10px;
+    margin-right:10px;
+    
+}

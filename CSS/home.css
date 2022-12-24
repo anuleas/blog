@@ -1,0 +1,91 @@
+*{
+    box-sizing:border-box;
+
+}
+
+.signup
+{
+    text-decoration: none;
+    background-color: red;
+    margin-top: 20px;
+    padding:10px;
+    color:white;
+    margin-left:650px;
+    border-radius:10px;
+    margin-right:80px;
+    border:3px solid red;
+    
+}
+a:hover{
+    background-color: blue;
+    color:white;
+    padding:15px;
+}
+.login
+{
+    text-decoration: none;
+    background-color: red;
+    margin-top: 20px;
+    padding:10px;
+    color:white;
+    border-radius:10px;
+    border:3px solid red;
+    
+    
+}
+
+/*
+
+.container
+{
+    display:flex;
+    width:60%;
+    margin:20px;
+    border:1px solid red;
+    border-radius: 10px;
+    padding:10px;
+   
+}
+.container a
+{
+    margin-left:10px;
+    margin-right:10px;
+    
+}*/
+.containerarticle 
+{
+    margin-left:100px;
+    border:2px solid red;
+    border-radius: 10px;;
+    width:50%;
+    height:400px;
+
+}
+.containerarticle li
+{
+    margin-top:20px;
+    padding:10px;
+}
+
+.containerarticle a
+{
+    margin-top:10px;
+    margin-left:100px;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:40px;
+}
+.containerarticle a:hover
+{
+    border:2px solid rgb(13, 0, 255);
+    border-radius:10px;
+   
+    background-color:rgb(255, 0, 4);
+    color:white;
+    padding:10px;
+    text-decoration: none;
+
+
+}

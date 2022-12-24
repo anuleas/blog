@@ -1,0 +1,23 @@
+
+
+*{
+    box-sizing:border-box;
+
+}
+.container
+{
+    display:flex;
+    width:60%;
+    margin:20px;
+    border:1px solid red;
+    border-radius: 10px;
+    padding:10px;
+   
+}
+.container a
+{
+    margin-left:10px;
+    margin-right:10px;
+    
+}
+

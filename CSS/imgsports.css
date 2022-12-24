@@ -1,0 +1,10 @@
+*
+{
+    box-sizing: border-box;
+}
+.style
+{
+    border:2px solid black;
+    width:20%;
+    padding:20px;
+}

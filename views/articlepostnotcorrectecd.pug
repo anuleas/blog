@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Articles
+        link(href='../../aticlepost.css' rel='stylesheet')
+    body 
+        .container
+            if(heading)
+                h3 About #{heading}
+            each val in article    
+                .contentarticle(style="border:1px solid black; border-radius:10px;margin-left:20px;margin-right:20px;margin-bottom:10px")
+                    .articlecintent 
+                        h3(style="text-align:center;font-weight: 500;") Article
+                            p #{val.article}
+                    .articleby        
+                        h4 Posted by 
+                            p(style = "color:red ; font-style:italic;font-size:10px") #{val.email} 
+                        a.comment(style="cursor:pointer;background-color:red;padding:10px")(onclick= 'return validation("'+ val._id +','+ typeuser +','+ email +'")') click here to write comment and rating
+                        form(action=`/commentsubmit/${val._id}/${val.email}`,method="post")
+                            label.commentlabel(for='comments') comments
+                            textarea#comments( rows='5' cols='15' name='comments')
+                            label.ratinglabel( for='rating') Rating
+                            input#rating(type='text' name='rating')
+                            input(type="submit" value="submit")
+                        br
+        script(src='../../validationcomments.js')            

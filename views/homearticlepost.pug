@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Sports
+        link(href='sportsarticlepost.css' rel='stylesheet')
+    body 
+        .container
+            .aboutsports
+                h3 About Sports
+            
+            .img
+                img(src='qatarfootball.jfif' alt='medicine')
+                p Sports
+            each val in article    
+                .contentarticle
+                    .articlecintent 
+                        h3 Article
+                            p  #{val.article}
+                    .articleby        
+                        h4 Posted by 
+                            p  #{val.email}       

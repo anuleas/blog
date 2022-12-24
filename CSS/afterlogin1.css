@@ -1,0 +1,107 @@
+
+.container
+{
+    margin-top:100px;
+}
+.box{
+    margin-left:100px;
+    border:2px solid red;
+    border-radius: 10px;;
+    width:30%;
+    height:150px;
+}
+
+.logout a
+{
+    margin-left:500px;
+    background-color: red;
+    padding:10px;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+.logout a:hover
+{
+    border:2px solid red;
+    border-radius:10px;
+    margin-left:500px;
+    background-color:blue;
+    color:white;
+    padding:20px;
+    text-decoration: none;
+
+
+}
+.welcome p
+{
+    margin-top:20px;
+    margin-left:80px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: italic;
+    margin-bottom:30px;
+    
+}
+
+
+.managearticle a
+{
+    
+   margin-left:100px;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px;
+    border-radius:10px;
+}
+.managearticle a:hover
+{
+    border:2px solid rgb(13, 0, 255);
+    border-radius:10px;
+   
+    background-color:rgb(255, 0, 4);
+    color:white;
+    padding:10px;
+    text-decoration: none;
+
+
+}
+.containerarticle 
+{
+    margin-left:100px;
+    border:2px solid red;
+    border-radius: 10px;;
+    width:50%;
+    height:400px;
+
+}
+.containerarticle li
+{
+    margin-top:20px;
+    padding:10px;
+}
+
+.containerarticle a
+{
+    margin-top:10px;
+    margin-left:100px;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:40px;
+}
+.containerarticle a:hover
+{
+    border:2px solid rgb(13, 0, 255);
+    border-radius:10px;
+   
+    background-color:rgb(255, 0, 4);
+    color:white;
+    padding:10px;
+    text-decoration: none;
+
+
+}
+
+

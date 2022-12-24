@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Home
+        link(href='afterlogin1.css' rel='stylesheet')
+    body
+        .container
+            div.logout
+                a(href = 'logout') Logout
+            .box    
+                div.welcome 
+                    p Welcome #{email}
+                div.managearticle
+                    a(href = 'managearticle') Manage Articles
+            .containerarticle 
+                .style 
+                    h2 SHOW  ARTICLES OF ALL USERS
+                    each val in topic
+                        ul 
+                            li
+                                a(href=`/go/${val._id}/${val.subject}`) #{val.subject} 
